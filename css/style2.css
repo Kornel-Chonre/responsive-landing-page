@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+a, a{
+	text-decoration: none;
+}
+/***********************golobal css start***************************/
+.container{
+	width: 1140px;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+	height: 450px;
+
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+/***********************golobal css end***************************/
+.header{
+	width: 100%;
+	height: 90px;
+/*	background: gray;*/
+	padding: 25px;
+}
+.header .logo{
+	float: left;
+}
+.header .menu{
+	margin: 15px;
+	float: left;
+}
+.menu a{
+	padding-left: 30px;
+	margin: 0px 10px;
+}
+.header .right-button{
+	float: right;
+}
+.right-button a{
+	background: blue;
+	padding: 10px 10px;
+	border-radius: 3px;
+	color: #fff;
+}
+
+.banner{
+	width: 100%;
+	margin-top: 30px;
+	padding: 20px 20px;
+/*	background: lightgray;*/
+	border: 1px solid black;
+	float: left;
+}
+.banner span{
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 4px;
+}
+.banner h2{
+	font-size: 55px;
+	line-height: 65px;
+	font-weight: 700px;
+	color:lightblue;
+
+}
+.banner p{
+	font-size: 18px;
+	line-height: 28px;
+	text-align: justify;
+	margin-top: 20px;
+}
+.button{
+	background: blue;
+	padding: 10px;
+	margin: 20px;
+	border-radius: 4px;
+	text-align: center;
+}
+.button a{
+	color: #fff;
+	letter-spacing: 8px;
+	transition: 0.4s;
+	
+}
+.button a:hover{
+	color: red;
+	letter-spacing: 4px;
+}
+.banner img{
+	width: 90%;
+	margin: 0px 100px;
+	border-left: 1px dotted #eee;
+}
